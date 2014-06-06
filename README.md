@@ -14,4 +14,4 @@ Select the text to be unminified and press:
     Ctrl + Alt + u (Windows/OSX/Linux)
 
 
-If you prefer menu options you should be able to find it un the 'Selection' menu.
+If you prefer menu options you should be able to find it under the 'Selection' menu.
