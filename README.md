@@ -5,7 +5,7 @@ A Sublime Text Plugin for converting minified CSS to something more readable. Or
 
 ## Installation
 - Get [Package Control](https://sublime.wbond.net/installation) if you don't already have it
-- Use Package Control ([instructions here](https://sublime.wbond.net/docs/usage)) to search for and install CssUnminifier
+- Use Package Control ([instructions here](https://sublime.wbond.net/docs/usage)) to search for and install Css Unminifier
 
 ## Usage
 
