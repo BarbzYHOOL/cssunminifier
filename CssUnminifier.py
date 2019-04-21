@@ -24,7 +24,7 @@ class CssUnminifierCommand(sublime_plugin.TextCommand):
         code = re.sub(r';\s*', ';\n    ', code)
         code = re.sub(r',\s*', ', ', code)
         code = re.sub(r'[ ]*\}\s*', '}\n', code)
-        code = re.sub(r'\}\s*(.+)', r'}\n\1', code)
+        code = re.sub(r'\}\s*(.+)', r'}\n\n\1', code)
         code = re.sub(r'\n    ([^:]+):\s*', r'\n    \1: ', code)
         code = re.sub(r'([A-z0-9\)])}', r'\1;\n}', code);
 
