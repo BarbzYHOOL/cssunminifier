@@ -20,7 +20,7 @@ class CssUnminifierCommand(sublime_plugin.TextCommand):
         code = code.split('\t')
         code = (tab_char*tab_len).join(code)
 
-        code = re.sub(r'\s*{\s*', ' {\n    ', code)
+        code = re.sub(r'\s*{\s*', '\n{\n    ', code)
         code = re.sub(r';\s*', ';\n    ', code)
         code = re.sub(r',\s*', ', ', code)
         code = re.sub(r'[ ]*\}\s*', '}\n', code)
